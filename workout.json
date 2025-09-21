@@ -1,0 +1,134 @@
+{
+  "full": {
+    "Bodyweight": [
+      { "name": "Burpees", "reps": "10 reps" },
+      { "name": "Jumping Jacks", "reps": "30 reps" },
+      { "name": "Mountain Climbers", "reps": "20 reps" }
+    ],
+    "Dumbbells": [
+      { "name": "Dumbbell Squats", "reps": "12 reps" },
+      { "name": "Dumbbell Rows", "reps": "10 reps" },
+      { "name": "Dumbbell Lunges", "reps": "12 reps each leg" }
+    ],
+    "Kettlebell": [
+      { "name": "Kettlebell Swings", "reps": "15 reps" },
+      { "name": "Kettlebell Deadlift", "reps": "12 reps" },
+      { "name": "Kettlebell Clean & Press", "reps": "10 reps" }
+    ],
+    "Resistance Bands": [
+      { "name": "Band Squats", "reps": "15 reps" },
+      { "name": "Band Rows", "reps": "12 reps" },
+      { "name": "Band Deadlift", "reps": "12 reps" }
+    ]
+  },
+  "upper": {
+    "Bodyweight": [
+      { "name": "Push-ups", "reps": "12 reps" },
+      { "name": "Tricep Dips", "reps": "10 reps" },
+      { "name": "Plank Shoulder Taps", "reps": "20 reps" }
+    ],
+    "Dumbbells": [
+      { "name": "Dumbbell Bench Press", "reps": "12 reps" },
+      { "name": "Dumbbell Shoulder Press", "reps": "10 reps" },
+      { "name": "Dumbbell Bicep Curls", "reps": "12 reps" }
+    ],
+    "Kettlebell": [
+      { "name": "Kettlebell Press", "reps": "10 reps" },
+      { "name": "Kettlebell Row", "reps": "12 reps" },
+      { "name": "Kettlebell Upright Row", "reps": "12 reps" }
+    ],
+    "Resistance Bands": [
+      { "name": "Band Chest Press", "reps": "12 reps" },
+      { "name": "Band Shoulder Press", "reps": "10 reps" },
+      { "name": "Band Bicep Curl", "reps": "12 reps" }
+    ]
+  },
+  "lower": {
+    "Bodyweight": [
+      { "name": "Squats", "reps": "15 reps" },
+      { "name": "Lunges", "reps": "12 reps each leg" },
+      { "name": "Glute Bridges", "reps": "15 reps" }
+    ],
+    "Dumbbells": [
+      { "name": "Dumbbell Squats", "reps": "12 reps" },
+      { "name": "Dumbbell Lunges", "reps": "12 reps each leg" },
+      { "name": "Dumbbell Step-ups", "reps": "10 reps each leg" }
+    ],
+    "Kettlebell": [
+      { "name": "Kettlebell Deadlift", "reps": "12 reps" },
+      { "name": "Kettlebell Goblet Squat", "reps": "12 reps" },
+      { "name": "Kettlebell Swing", "reps": "15 reps" }
+    ],
+    "Resistance Bands": [
+      { "name": "Band Squats", "reps": "15 reps" },
+      { "name": "Band Lateral Walks", "reps": "12 steps each side" },
+      { "name": "Band Deadlift", "reps": "12 reps" }
+    ]
+  },
+  "core": {
+    "Bodyweight": [
+      { "name": "Plank", "reps": "30 sec" },
+      { "name": "Sit-ups", "reps": "15 reps" },
+      { "name": "Leg Raises", "reps": "12 reps" }
+    ],
+    "Dumbbells": [
+      { "name": "Weighted Sit-ups", "reps": "12 reps" },
+      { "name": "Russian Twists", "reps": "15 reps" },
+      { "name": "Dumbbell Side Bends", "reps": "12 reps each side" }
+    ],
+    "Kettlebell": [
+      { "name": "Kettlebell Russian Twists", "reps": "15 reps" },
+      { "name": "Kettlebell Sit-ups", "reps": "12 reps" },
+      { "name": "Kettlebell Side Bends", "reps": "12 reps each side" }
+    ],
+    "Resistance Bands": [
+      { "name": "Band Crunches", "reps": "12 reps" },
+      { "name": "Band Side Twists", "reps": "15 reps" },
+      { "name": "Band Leg Raises", "reps": "12 reps" }
+    ]
+  },
+  "arms": {
+    "Bodyweight": [
+      { "name": "Push-ups", "reps": "12 reps" },
+      { "name": "Tricep Dips", "reps": "10 reps" },
+      { "name": "Plank Shoulder Taps", "reps": "20 reps" }
+    ],
+    "Dumbbells": [
+      { "name": "Dumbbell Bicep Curls", "reps": "12 reps" },
+      { "name": "Dumbbell Tricep Kickbacks", "reps": "12 reps" },
+      { "name": "Dumbbell Hammer Curls", "reps": "12 reps" }
+    ],
+    "Kettlebell": [
+      { "name": "Kettlebell Curl", "reps": "12 reps" },
+      { "name": "Kettlebell Press", "reps": "10 reps" },
+      { "name": "Kettlebell Tricep Extension", "reps": "12 reps" }
+    ],
+    "Resistance Bands": [
+      { "name": "Band Bicep Curl", "reps": "12 reps" },
+      { "name": "Band Overhead Tricep", "reps": "12 reps" },
+      { "name": "Band Reverse Curl", "reps": "12 reps" }
+    ]
+  },
+  "legs": {
+    "Bodyweight": [
+      { "name": "Squats", "reps": "15 reps" },
+      { "name": "Lunges", "reps": "12 reps each leg" },
+      { "name": "Glute Bridges", "reps": "15 reps" }
+    ],
+    "Dumbbells": [
+      { "name": "Dumbbell Squats", "reps": "12 reps" },
+      { "name": "Dumbbell Lunges", "reps": "12 reps each leg" },
+      { "name": "Dumbbell Step-ups", "reps": "10 reps each leg" }
+    ],
+    "Kettlebell": [
+      { "name": "Kettlebell Deadlift", "reps": "12 reps" },
+      { "name": "Kettlebell Goblet Squat", "reps": "12 reps" },
+      { "name": "Kettlebell Swing", "reps": "15 reps" }
+    ],
+    "Resistance Bands": [
+      { "name": "Band Squats", "reps": "15 reps" },
+      { "name": "Band Lateral Walks", "reps": "12 steps each side" },
+      { "name": "Band Deadlift", "reps": "12 reps" }
+    ]
+  }
+}

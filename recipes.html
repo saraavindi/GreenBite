@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Healthy Recipes — GreenBite</title>
+  
+  <link rel="stylesheet" href="assets/css/recipes.css">
+  <link rel="stylesheet" href="assets/css/all.css">
+  <script defer src="assets/js/recipes.js"></script>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container navbar">
+      <div class="logo">🌿 GreenBite</div>
+      <nav class="nav" id="navMenu">
+        <a href="index.html" >Home</a>
+        <a href="recipes.html"class="active">Recipes</a>
+        <a href="calculator.html">Calculator</a>
+        <a href="workouts.html">Workouts</a>
+        <a href="mindfulness.html">Mindfulness</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main class="section">
+    <div class="container">
+      <h1 class="section-title">Healthy Recipes</h1>
+      <p class="muted center subtitle">
+        A curated collection of balanced, quik breakfasts, energising lunches, hearty dinners and healthy snacks.
+         Click any card to view the full recipe, ingredients and nutrition table.
+      </p>
+      
+      
+   <div class="filters" style="justify-content:center;margin-bottom:28px;">
+        <input id="search" type="search" placeholder="Search by name…" aria-label="Search recipes by name" />
+        <select id="category" aria-label="Filter by category">
+          <option value="all">All categories</option>
+          <option value="breakfast">Breakfast</option>
+          <option value="lunch">Lunch</option>
+          <option value="dinner">Dinner</option>
+          <option value="snack">Snack</option>
+        </select>
+        <button id="reset-filters" class="btn">Reset</button>
+      </div>
+
+      <!-- Recipe Grid -->
+      <div id="recipe-grid" class="grid-3" aria-live="polite"></div>
+    </div>
+  </main>
+
+  <!-- Modal -->
+  <div id="recipeModal" class="modal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-content">
+      <button class="close-btn" aria-label="Close recipe modal">&times;</button>
+      <h2 id="modalTitle"></h2>
+      <div class="img grid">
+        <img id="modalImage" src="" alt="" />
+      </div>
+      
+      <p id="modalDescription" class="muted" style="margin-top:10px;"></p>
+
+      <h3>Ingredients</h3>
+      <ul id="modalIngredients"></ul>
+
+      <h3>Steps</h3>
+      <ol id="modalSteps"></ol>
+
+      <h3>Nutrition</h3>
+      <table id="modalNutrition" class="nutrition-table">
+        <thead>
+          <tr><th>Nutrient</th><th>Amount</th></tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="muted">© 2025 GreenBite Wellness</div>
+      <div class="links">
+        <a href="index.html">Home</a>
+        <a href="recipes.html">Recipes</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GreenBite</title>
+  <link rel="stylesheet" href="assets/css/home.css">
+  <link rel="stylesheet" href="assets/css/all.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container navbar">
+      <div class="logo">🌿 GreenBite</div>
+      <nav class="nav" id="navMenu">
+        <a href="index.html" class="active">Home</a>
+        <a href="recipes.html">Recipes</a>
+        <a href="calculator.html">Calculator</a>
+        <a href="workouts.html">Workouts</a>
+        <a href="mindfulness.html">Mindfulness</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero section -->
+  <section class="hero container">
+    <div class="hero grid">
+      <div class="hero-text">
+        <h1 class="headline" id="slogan">Healthy Living Starts Here</h1>
+        <p class="sub">Fuel your body, mind, and soul with balanced meals, workouts, and mindfulness practices.</p>
+      </div>
+      <div class="hero-image">
+        <img src="./images/salad.jpg" alt="Healthy Salad">
+      </div>
+    </div>
+  </section>
+
+  <!-- Daily Tip -->
+  <section class="section section-muted">
+    <div class="container">
+      <h2 class="section-title">Tip of the Day</h2>
+      <div class="tip-card" id="dailyTip"></div>
+    </div>
+  </section>
+
+  <!-- Featured Grid -->
+  <section class="section">
+    <div class="container grid-3">
+      <a href="recipes.html" class="tile reveal">
+        <img src="images/recipes1.jpg" alt="Nutrition">
+        <h3>Nutrition</h3>
+        <p>Discover balanced meals and recipes that fuel your health journey.</p>
+      </a>
+
+      <a href="workouts.html" class="tile reveal">
+        <img src="images/workout1.jpg" alt="Workouts">
+        <h3>Workouts</h3>
+        <p>Stay fit with guided routines for all levels of experience.</p>
+      </a>
+
+      <a href="mindfulness.html" class="tile reveal">
+        <img src="images/mindfulness1.jpg" alt="Mindfulness">
+        <h3>Mindfulness</h3>
+        <p>Practice mindfulness and stress relief through breathing and meditation.</p>
+      </a>
+    </div>
+  </section>
+
+  <!-- Newsletter -->
+  <section class="section">
+    <div class="container newsletter">
+      <h3>Subscribe to Our Newsletter</h3>
+      <form class="newsletter-form" id="newsletterForm">
+        <input type="email" id="newsletterEmail" placeholder="Enter your email" required>
+        <button class="btn btn-primary" type="submit">Subscribe</button>
+      </form>
+      <div class="form-msg" id="newsletterMsg"></div>
+    </div>
+  </section>
+
+<!-- footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p class="muted">© 2025 GreenBite Wellness</p>
+      <div class="links">
+        <a href="index.html">Home</a>
+        <a href="recipes.html">Recipes</a>
+        <a href="calculator.html">Calculator</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./assets/js/home.js"></script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Calorie & Nutrition Calculator — GreenBite</title>
+  <link rel="stylesheet" href="assets/css/calc.css"/>
+  <link rel="stylesheet" href="assets/css/all.css">
+
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container navbar">
+      <div class="logo">🌿 GreenBite</div>
+      <nav class="nav" id="navMenu">
+        <a href="index.html" >Home</a>
+        <a href="recipes.html">Recipes</a>
+        <a href="calculator.html"class="active">Calculator</a>
+        <a href="workouts.html">Workouts</a>
+        <a href="mindfulness.html">Mindfulness</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </header>
+
+<main class="section">
+  <div class="container">
+    <h1 class="section-title">Calorie & Nutrition Calculator</h1>
+   <p class="section-description">
+  This calculator helps you discover how many calories your body really needs each day. 
+  By entering your age, gender, height, weight, and activity level, it works out your 
+  <strong>BMR</strong> (calories burned at rest) and your <strong>TDEE</strong> 
+  (total daily calories based on lifestyle). It also gives you a simple breakdown of 
+  carbs, protein, and fat, so you can plan meals more effectively and make healthier choices.
+</p>
+
+
+    <form id="calc-form" class="form-grid" novalidate>
+      <label>Age (years)<input id="age" type="number" min="14" max="100" required></label>
+      <label>Gender
+        <select id="gender" required>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+      </label>
+      <label>Height (cm)<input id="height" type="number" min="120" max="230" required></label>
+      <label>Weight (kg)<input id="weight" type="number" step="0.1" min="35" max="250" required></label>
+      <label>Activity level
+        <select id="activity" required>
+          <option value="1.2">Sedentary (little or no exercise)</option>
+          <option value="1.375">Lightly active (1–3 days/week)</option>
+          <option value="1.55">Moderately active (3–5 days/week)</option>
+          <option value="1.725">Very active (6–7 days/week)</option>
+          <option value="1.9">Super active (physical job)</option>
+        </select>
+      </label>
+      <button class="btn btn-primary" type="submit">Calculate</button>
+    </form>
+
+    <div class="results hidden" id="results">
+      <div class="stats">
+        <div class="stat"><strong>BMR</strong><div id="bmr">—</div></div>
+        <div class="stat"><strong>TDEE</strong><div id="tdee">—</div></div>
+      </div>
+
+      <h3>Macronutrients</h3>
+      <div class="macros">
+        <div>
+          <p>Carbs (50%) <strong id="carb-g">— g</strong></p>
+          <div class="progress"><span id="carb-bar" style="width:0%"></span></div>
+        </div>
+        <div>
+          <p>Protein (20%) <strong id="protein-g">— g</strong></p>
+          <div class="progress"><span id="protein-bar" style="width:0%"></span></div>
+        </div>
+        <div>
+          <p>Fat (30%) <strong id="fat-g">— g</strong></p>
+          <div class="progress"><span id="fat-bar" style="width:0%"></span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div><strong>GreenBite</strong><p class="muted mt">Know your numbers.</p></div>
+    <nav class="links"><a href="index.html">Home</a><a href="contact.html">Contact</a></nav>
+  </div>
+</footer>
+
+<script src="app.js" defer></script>
+<script src="assets/js/calculator.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,222 @@
+/* header and navigation */
+.site-header {
+  position: sticky;    /* header stays at the top even when scrolling */
+  top: 0;                         
+  z-index: 50;         /* header stays above other elements */
+  background-color: rgba(11,20,32,1.0); 
+  border-bottom: 1px solid rgba(255,255,255,0.06); 
+}
+
+.navbar {
+  display: flex;         /* using flexbox */
+  align-items: center;        /* vertically center items */
+  justify-content: space-between;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.logo {
+  font-family: "Playfair Display", serif; 
+  font-weight: 800;
+  font-size: 24px;
+  color: #eafff3;
+}
+
+.nav {
+  display: flex;
+  gap: 18px;         /* space between nav links */
+  align-items: center;
+}
+
+.nav a {
+  padding: 8px 12px;              
+  border-radius: 12px;   /* rounded corners */
+  color: #a8c2b3;                 
+  text-decoration: none;  /* remove underline */
+
+}
+
+.nav a:hover,
+.nav a.active {
+  color: #eaf6ee;     /*hover effect for the text color */
+  background-color: rgba(255,255,255,0.06); 
+}
+
+
+
+/* Hamburger icon */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+}
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background: white;
+  border-radius: 2px;
+}
+
+/* Mobile layout for tiles and hamburger menu */
+@media (max-width: 900px) {
+  /* Stack the 3 tiles vertically */
+  .grid-3 {
+    display: flex;          /* Use flex to make it easier */
+    flex-direction: column; /* Stack one on top of another */
+    gap: 20px;              /* Space between each tile */
+  }
+
+  /* Adjust Hero section if needed */
+  .hero.grid {
+    flex-direction: column;  
+    gap: 16px;
+    align-items: flex-start; 
+  }
+
+  /* Hamburger menu visible on mobile */
+  .hamburger {
+    display: flex;           /* Show the hamburger button */
+  }
+
+  /* Nav menu hidden by default on mobile */
+  .nav {
+    display: none;           /* Hide menu until clicked */
+    position: absolute;
+    right: 4%;
+    top: 64px;
+    background: #0c1d33;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 10px;
+    border-radius: 14px;
+    flex-direction: column;  /* Stack links vertically */
+    gap: 6px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.35);
+  }
+
+  /* Show nav menu when hamburger is clicked */
+  .nav.open {
+    display: flex;
+  }
+}
+
+/* Mobile layout for tiles and hamburger menu */
+@media (max-width: 900px) {
+  /* Stack the 3 tiles vertically */
+  .grid-3 {
+    display: flex;          /* Use flex to make it easier */
+    flex-direction: column; /* Stack one on top of another */
+    gap: 20px;              /* Space between each tile */
+  }
+
+  /* Adjust Hero section if needed */
+  .hero.grid {
+    flex-direction: column;  
+    gap: 16px;
+    align-items: flex-start; 
+  }
+
+  /* Hamburger menu visible on mobile */
+  .hamburger {
+    display: flex;           /* Show the hamburger button */
+  }
+
+  /* Nav menu hidden by default on mobile */
+  .nav {
+    display: none;           /* Hide menu until clicked */
+    position: absolute;
+    right: 4%;
+    top: 64px;
+    background: #0c1d33;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 10px;
+    border-radius: 14px;
+    flex-direction: column;  /* Stack links vertically */
+    gap: 6px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.35);
+  }
+
+  /* Show nav menu when hamburger is clicked */
+  .nav.open {
+    display: flex;
+  }
+}
+
+/* Mobile layout for tiles and hamburger menu */
+@media (max-width: 900px) {
+  /* Stack the 3 tiles vertically */
+  .grid-3 {
+    display: flex;          /* Use flex to make it easier */
+    flex-direction: column; /* Stack one on top of another */
+    gap: 20px;              /* Space between each tile */
+  }
+
+  /* Adjust Hero section if needed */
+  .hero.grid {
+    flex-direction: column;  
+    gap: 16px;
+    align-items: flex-start; 
+  }
+
+  /* Hamburger menu visible on mobile */
+  .hamburger {
+    display: flex;           /* Show the hamburger button */
+  }
+
+  /* Nav menu hidden by default on mobile */
+  .nav {
+    display: none;           /* Hide menu until clicked */
+    position: absolute;
+    right: 4%;
+    top: 64px;
+    background: #0c1d33;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 10px;
+    border-radius: 14px;
+    flex-direction: column;  /* Stack links vertically */
+    gap: 6px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.35);
+  }
+
+  /* Show nav menu when hamburger is clicked */
+  .nav.open {
+    display: flex;
+  }
+}
+
+
+
+
+/*  footer */
+
+.site-footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  padding: 28px 0;
+  background: rgba(11, 20, 32, 0.6);
+  color: #eaf6ee;
+  width: 100%;
+  margin-top: auto; /* pushes footer down */
+}
+
+
+.footer-grid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap; /* allow wrapping on small screens */
+ }
+
+.links {
+  display: flex;
+  gap: 14px;
+}
+
+.links a {
+  color: #a8c2b3;
+  text-decoration: none;
+}
+
+.muted {
+  color: #a8c2b3;
+} 

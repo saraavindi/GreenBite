@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "title": "Avocado Toast",
+    "category": "breakfast",
+    "desc": "Whole-grain toast topped with mashed avocado, lemon and chili flakes.",
+    "img": "https://alegumeaday.com/wp-content/uploads/2024/03/Bean-avocado-toast-3-500x500.jpg",
+    "ingredients": ["2 slices whole-grain bread", "1 ripe avocado", "1/2 lemon (juice)", "Salt & pepper", "Chili flakes (optional)"],
+    "steps": ["Toast the bread to desired crispiness.", "Mash avocado with lemon juice, salt and pepper.", "Spread mixture onto toast and sprinkle chili flakes."],
+    "nutrition": {"Calories": "260 kcal", "Protein": "6 g", "Carbs": "28 g", "Fat": "14 g"}
+  },
+  {
+    "id": 2,
+    "title": "Quinoa & Chickpea Salad",
+    "category": "lunch",
+    "desc": "Protein-packed salad with quinoa, chickpeas, cucumber and herbs.",
+    "img": "https://www.thelastfoodblog.com/wp-content/uploads/2022/05/chickpea-quinoa-salad-with-feta.jpg",
+    "ingredients": ["1 cup cooked quinoa", "1 cup cooked chickpeas", "1/2 cucumber (diced)", "Cherry tomatoes", "Olive oil & lemon dressing"],
+    "steps": ["Combine quinoa, chickpeas and chopped vegetables in a bowl.", "Whisk olive oil and lemon juice; season to taste.", "Toss salad with dressing and serve chilled."],
+    "nutrition": {"Calories": "350 kcal", "Protein": "12 g", "Carbs": "45 g", "Fat": "11 g"}
+  },
+  {
+    "id": 3,
+    "title": "Overnight Oats",
+    "category": "breakfast",
+    "desc": "Creamy overnight oats with milk, chia and mixed berries.",
+    "img": "https://cdn11.bigcommerce.com/s-dis4vxtxtc/images/stencil/608x608/products/2628/3099/fruity-overnight-oats.sq__67147.1679026681.jpg?c=2",
+    "ingredients": ["1/2 cup rolled oats", "1 tbsp chia seeds", "3/4 cup milk (or plant milk)", "1/2 cup mixed berries", "1 tsp honey (optional)"],
+    "steps": ["Mix oats, chia and milk in a jar.", "Refrigerate overnight.", "Top with berries and honey before serving."],
+    "nutrition": {"Calories": "320 kcal", "Protein": "9 g", "Carbs": "50 g", "Fat": "8 g"}
+  },
+  {
+    "id": 4,
+    "title": "Grilled Salmon & Veggies",
+    "category": "dinner",
+    "desc": "Omega-3 rich salmon with herb-roasted vegetables.",
+    "img": "https://www.eatingwell.com/thmb/9RwA8tgu8bX8T-WOSvQkz_oqZls=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/CedarPlankedSalmon_Beauty3x2_3591-aaedb1d8769a4ba0a30790026a5932c5.jpg",
+    "ingredients": ["1 salmon fillet (150-200g)", "Broccoli, carrots, bell peppers", "Olive oil, garlic, herbs", "Salt & pepper"],
+    "steps": ["Season salmon and grill 4–6 minutes per side until cooked.", "Roast seasoned vegetables in oven at 200°C for 20 minutes.", "Serve salmon atop roasted vegetables with lemon."],
+    "nutrition": {"Calories": "420 kcal", "Protein": "34 g", "Carbs": "14 g", "Fat": "24 g"}
+  },
+  {
+    "id": 5,
+    "title": "Lentil Soup",
+    "category": "dinner",
+    "desc": "Hearty lentil soup with carrots, celery and tomatoes.",
+    "img": "https://www.wellplated.com/wp-content/uploads/2020/01/Crockpot-Lentil-Soup.jpg",
+    "ingredients": ["1 cup brown lentils", "1 onion, 2 carrots, 2 celery stalks (chopped)", "2 garlic cloves, canned tomatoes, vegetable stock", "Cumin, paprika, salt & pepper"],
+    "steps": ["Sauté onion, carrots and celery until softened.", "Add garlic, spices and lentils; pour in stock and tomatoes.", "Simmer 25–30 minutes until lentils are tender."],
+    "nutrition": {"Calories": "290 kcal", "Protein": "18 g", "Carbs": "45 g", "Fat": "4 g"}
+  },
+  {
+    "id": 6,
+    "title": "Quinoa-Stuffed Peppers",
+    "category": "dinner",
+    "desc": "Bell peppers stuffed with quinoa, beans and herbs.",
+    "img": "https://s.lightorangebean.com/media/20240914151713/Quinoa-and-Lentil-Stuffed-Peppers_-done.png",
+    "ingredients": ["4 bell peppers (tops removed)", "1 cup cooked quinoa", "1/2 cup black beans", "Onion, corn, spices, cheese (optional)"],
+    "steps": ["Mix quinoa, beans and vegetables; season.", "Stuff mixture into peppers and bake 20–25 minutes.", "Top with cheese if using and bake 5 more minutes."],
+    "nutrition": {"Calories": "320 kcal", "Protein": "12 g", "Carbs": "50 g", "Fat": "6 g"}
+  },
+  {
+    "id": 7,
+    "title": "Zucchini Noodle Carbonara (light)",
+    "category": "dinner",
+    "desc": "Lower-carb twist on carbonara using zucchini noodles.",
+    "img": "https://mikastable.com/wp-content/uploads/2021/10/Homemade-Carbonara-Zucchini-noodles-Recipe.webp",
+    "ingredients": ["2 medium zucchinis (spiralized)", "1 egg + 1 egg white", "Parmesan, pancetta or smoked mushrooms", "Garlic, pepper"],
+    "steps": ["Sauté pancetta or mushrooms; set aside.", "Quickly sauté zoodles then combine with egg and cheese off heat.", "Toss with cooked pancetta and season."],
+    "nutrition": {"Calories": "290 kcal", "Protein": "18 g", "Carbs": "10 g", "Fat": "18 g"}
+  },
+  {
+    "id": 8,
+    "title": "Greek Yogurt Parfait",
+    "category": "snack",
+    "desc": "Layered Greek yogurt with honey, nuts and fresh fruit.",
+    "img": "https://www.homemadefoodjunkie.com/wp-content/uploads/2021/07/Untitled-design-84.jpg",
+    "ingredients": ["1 cup Greek yogurt", "1/2 cup mixed berries", "2 tbsp granola", "1 tsp honey", "1 tbsp chopped nuts"],
+    "steps": ["Layer yogurt, berries and granola in a glass.", "Drizzle honey and sprinkle nuts on top."],
+    "nutrition": {"Calories": "260 kcal", "Protein": "15 g", "Carbs": "28 g", "Fat": "8 g"}
+  },
+  {
+    "id": 9,
+    "title": "Vegetable Stir-Fry with Tofu",
+    "category": "lunch",
+    "desc": "Quick wok-fried veggies with crispy tofu and light soy sauce.",
+    "img": "https://www.tashasartisanfoods.com/blog/wp-content/uploads/2019/07/unnamed-19.jpg",
+    "ingredients": ["Firm tofu (cubed)", "Broccoli, snow peas, bell pepper", "Garlic, ginger, soy sauce, sesame oil"],
+    "steps": ["Pan-fry tofu until golden; set aside.", "Stir-fry vegetables with garlic and ginger.", "Return tofu to pan, add soy sauce and toss to combine."],
+    "nutrition": {"Calories": "360 kcal", "Protein": "20 g", "Carbs": "28 g", "Fat": "16 g"}
+  },
+  {
+    "id": 10,
+    "title": "Grilled Chicken Grain Bowl",
+    "category": "lunch",
+    "desc": "High-protein bowl with grilled chicken, brown rice, roasted vegetables, and a light herb dressing.",
+    "img": "https://www.savoryonline.com/app/uploads/recipes/175909/grain-bowl-with-chicken-and-veggies-scaled.jpg",
+    "ingredients": ["1 cup cooked brown rice", "150g grilled chicken breast, sliced", "Roasted broccoli, bell peppers, carrots", "Handful of arugula or spinach", "Herb dressing (1 tsp olive oil, lemon juice, parsley, salt, pepper)"],
+    "steps": ["Cook the brown rice as per instructions.", "Grill the chicken breast until fully cooked and juicy.", "Roast the vegetables until tender.", "Assemble the bowl with rice, chicken, roasted veggies, and greens.", "Drizzle with herb dressing and serve."],
+    "nutrition": {"Calories": "500 kcal", "Protein": "35 g", "Carbs": "55 g", "Fat": "15 g"}
+  },
+  {
+    "id": 11,
+    "title": "Chickpea & Spinach Curry",
+    "category": "dinner",
+    "desc": "Quick vegan curry with chickpeas and wilted spinach.",
+    "img": "https://www.thelastfoodblog.com/wp-content/uploads/2024/05/chickpea-curry-f_i.jpg",
+    "ingredients": ["1 can chickpeas (drained)", "2 cups spinach", "1 onion, garlic, ginger", "Tomato puree, curry powder"],
+    "steps": ["Sauté onion, garlic and ginger.", "Add curry powder, tomato and chickpeas; simmer 10 min.", "Stir in spinach until wilted and serve with rice."],
+    "nutrition": {"Calories": "340 kcal", "Protein": "14 g", "Carbs": "44 g", "Fat": "9 g"}
+  },
+  {
+    "id": 12,
+    "title": "Berry & Spinach Smoothie",
+    "category": "breakfast",
+    "desc": "Vitamin-rich smoothie: berries, spinach, banana and almond milk.",
+    "img": "https://simplegreensmoothies.com/wp-content/uploads/spinach-berry-smoothie-recipe-healthy-green-5.jpg",
+    "ingredients": ["1 banana", "1 cup mixed berries", "1 cup spinach", "1 cup almond milk"],
+    "steps": ["Add all ingredients to blender and blend until smooth.", "Pour into a glass and enjoy immediately."],
+    "nutrition": {"Calories": "210 kcal", "Protein": "4 g", "Carbs": "45 g", "Fat": "3 g"}
+  },
+  {
+    "id": 13,
+    "title": "Oven-Roasted Chicken & Veg",
+    "category": "dinner",
+    "desc": "Simple one-tray roast with herbs for an easy weeknight meal.",
+    "img": "https://www.jocooks.com/wp-content/uploads/2020/03/roasted-chicken-and-vegetables-1-9.jpg",
+    "ingredients": ["Chicken thighs or breast", "Potatoes, carrots, onions", "Olive oil, rosemary, salt & pepper"],
+    "steps": ["Toss chicken and vegetables in oil and herbs.", "Roast at 200°C for 30–40 minutes until cooked through.", "Rest 5 minutes then serve."],
+    "nutrition": {"Calories": "450 kcal", "Protein": "36 g", "Carbs": "30 g", "Fat": "20 g"}
+  },
+  {
+    "id": 14,
+    "title": "Hummus & Veggie Plate",
+    "category": "snack",
+    "desc": "Creamy hummus served with raw veggie sticks and whole-grain crackers.",
+    "img": "https://www.pepperdelight.com/wp-content/uploads/2017/12/pepper-delight-hummus-3.jpg",
+    "ingredients": ["1 cup hummus", "Carrot sticks, cucumber, bell pepper", "Whole-grain crackers or pita"],
+    "steps": ["Arrange hummus in bowl and plate veggies around.", "Serve with crackers for dipping."],
+    "nutrition": {"Calories": "220 kcal", "Protein": "6 g", "Carbs": "20 g", "Fat": "12 g"}
+  },
+  {
+    "id": 15,
+    "title": "Banana Oat Energy Balls",
+    "category": "snack",
+    "desc": "No-bake energy bites with oats, dates and nuts — great pre-workout snack.",
+    "img": "https://thehealthytart.com/wp-content/uploads/2017/04/Healthy-Banana-Oat-Bites-Overhead-e1491837475237.jpg",
+    "ingredients": ["1 cup oats", "1 cup pitted dates", "1/2 cup peanut butter", "2 tbsp chia seeds"],
+    "steps": ["Blend dates and peanut butter until smooth, mix with oats and chia.", "Roll into balls and chill until firm."],
+    "nutrition": {"Calories": "130 kcal (per ball)", "Protein": "4 g", "Carbs": "18 g", "Fat": "6 g"}
+  }
+]

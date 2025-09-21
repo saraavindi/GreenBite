@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Workouts — GreenBite</title>
+  <link rel="stylesheet" href="assets/css/workout.css">
+  <link rel="stylesheet" href="assets/css/all.css">
+  <script defer src="assets/js/workout.js"></script>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container navbar">
+      <div class="logo">🌿 GreenBite</div>
+      <nav class="nav" id="navMenu">
+        <a href="index.html" >Home</a>
+        <a href="recipes.html">Recipes</a>
+        <a href="calculator.html">Calculator</a>
+        <a href="workouts.html"class="active">Workouts</a>
+        <a href="mindfulness.html">Mindfulness</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </header>
+
+<!-- Hero Section -->
+<section class="hero section">
+  <div class="container hero-grid">
+    <div>
+      <h1 class="headline">Workouts</h1>
+      <p class="sub">
+        Customize your workout plan in minutes. Choose the body part and equipment, generate a full routine, track your session with the timer, and energize your workout with music.
+      </p>
+    </div>
+    <div>
+      <img src="images/w2.jpg" alt="Workout illustration">
+    </div>
+  </div>
+</section>
+
+<!-- Workout Generator Section -->
+<section class="section">
+  <div class="container workout-generator-wide">
+    <h2 class="section-title center playfair-title">Workout Generator</h2>
+    <div class="generator-grid">
+
+      <!-- Body Part Sub-Box -->
+      <div class="sub-box">
+        <span class="sub-title">Body Part</span>
+        <select id="body-select" class="custom-select">
+          <option value="" disabled selected>Select Body Part</option>
+          <option value="full">Full Body</option>
+          <option value="upper">Upper Body</option>
+          <option value="lower">Lower Body</option>
+          <option value="core">Core</option>
+          <option value="arms">Arms</option>
+          <option value="legs">Legs</option>
+        </select>
+      </div>
+
+      <!-- Equipment Sub-Box -->
+      <div class="sub-box">
+        <span class="sub-title">Equipment</span>
+        <select id="equip-select" class="custom-select" disabled>
+          <option value="" disabled selected>Select Equipment</option>
+          <option value="none">None</option>
+          <option value="dumbbell">Dumbbell</option>
+          <option value="resistance-band">Resistance Band</option>
+          <option value="barbell">Barbell</option>
+          <option value="kettlebell">Kettlebell</option>
+        </select>
+      </div>
+
+    </div>
+
+    <!-- Workout Plan Output -->
+    <div id="plan-output" class="plan-output" style="display:none;"></div>
+  </div>
+</section>
+
+<!-- Timer + Music Section -->
+<section class="pomo-section">
+  <div class="container grid-2">
+
+    <!-- Timer Box -->
+    <div class="pomo-box">
+      <h3 class="pomodoro-title playfair-title">Workout Timer</h3>
+      <p class="muted center">Set your workout duration</p>
+      <input type="number" id="timer-minutes" min="1" max="120" value="30"> minutes
+      <div class="timer-display" id="timer-display">30:00</div>
+      <div class="timer-buttons">
+        <button class="btn btn-primary" id="start-timer">Start</button>
+        <button class="btn btn-outline" id="pause-timer">Pause</button>
+        <button class="btn btn-outline" id="reset-timer">Reset</button>
+      </div>
+      <p class="muted center">Use this timer to track your workout session.</p>
+    </div>
+
+    <!-- Music Box -->
+    <div class="pomo-box">
+      <h3 class="pomodoro-title playfair-title">Workout Music</h3>
+      <img src="images/w3.jpg" alt="Click to play music" id="music-img">
+      <audio id="workout-music" src="sounds/workout.mp3"></audio>
+      <p class="muted center">Click the box to play or pause your workout music.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="muted">© 2025 GreenBite Wellness</div>
+    <div class="links">
+      <a href="index.html">Home</a>
+      <a href="recipes.html">Recipes</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

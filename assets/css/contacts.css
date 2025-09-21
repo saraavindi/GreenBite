@@ -1,0 +1,199 @@
+/* Container */
+.container {
+  max-width: 1100px;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Body */
+body {
+  font-family: Inter, sans-serif;
+  line-height: 1.6;
+  background-color: #0b1420;
+  color: #eaf6ee;
+}
+
+/* Header */
+.site-header {
+  position: sticky;
+  top: 0;
+  background: rgba(11,20,32,0.7);
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+  backdrop-filter: blur(10px);
+  z-index: 50;
+  padding: 14px 0;
+}
+
+.logo {
+  font-family: "Playfair Display", serif;
+  font-weight: 800;
+  font-size: 24px;
+  color: #eafff3;
+}
+
+.nav {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+}
+
+.nav a {
+  padding: 8px 12px;
+  border-radius: 12px;
+  color: #a8c2b3;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.nav a:hover,
+.nav a.active {
+  color: #eaf6ee;
+  background: rgba(255,255,255,0.06);
+}
+
+/* Hamburger for mobile */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.hamburger span {
+  width: 26px;
+  height: 2px;
+  background: #cfe7dd;
+  border-radius: 2px;
+}
+
+/* Section */
+.section {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  min-height: calc(100vh - 140px);
+}
+
+.section-title {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: clamp(28px, 4vw, 40px);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Card */
+.card {
+  background-color: #0f1f32;
+  border: 1px solid rgba(255,255,255,0.06);
+  padding: 24px;
+  border-radius: 18px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.35);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.card form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.card label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 16px;
+  color: #eaf6ee;
+}
+
+.card input,
+.card textarea {
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.1);
+  background-color: #0d1b2e;
+  color: #eaf6ee;
+  font-size: 16px;
+}
+
+.card button {
+  padding: 12px 16px;
+  border-radius: 14px;
+  border: 1px solid rgba(255,255,255,0.08);
+  background: linear-gradient(180deg, #2fbf71, #8ce9a8);
+  color: #082114;
+  font-size: 16px;
+  cursor: pointer;
+  width: fit-content;
+  align-self: flex-start;
+  transition: transform 0.12s;
+}
+
+.card button:hover {
+  transform: translateY(-2px);
+}
+
+/* Message */
+#contact-msg {
+  font-size: 16px;
+  color: #8ce9a8;
+  margin-top: 12px;
+}
+
+/* Footer */
+.site-footer {
+  border-top: 1px solid rgba(255,255,255,0.06);
+  padding: 28px 0;
+  background: rgba(11,20,32,0.6);
+  color: #eaf6ee;
+  width: 100%;
+  margin-top: auto;
+}
+
+.footer-grid {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.links {
+  display: flex;
+  gap: 14px;
+}
+
+.muted {
+  color: #a8c2b3;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .hamburger {
+    display: flex;
+  }
+  .nav {
+    display: none;
+    position: absolute;
+    right: 4%;
+    top: 64px;
+    background: #0c1d33;
+    border: 1px solid rgba(255,255,255,0.08);
+    padding: 10px;
+    border-radius: 14px;
+    flex-direction: column;
+    gap: 6px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.35);
+    z-index: 100;
+  }
+  .nav.open {
+    display: flex;
+  }
+}
+
+@media (max-width: 640px) {
+  .card {
+    padding: 16px;
+  }
+}

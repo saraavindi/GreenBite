@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>GreenBite | Mindfulness</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="assets/css/mindfulness.css" />
+  <link rel="stylesheet" href="assets/css/all.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container navbar">
+      <div class="logo">🌿 GreenBite</div>
+      <nav class="nav" id="navMenu">
+        <a href="index.html" >Home</a>
+        <a href="recipes.html">Recipes</a>
+        <a href="calculator.html">Calculator</a>
+        <a href="workouts.html">Workouts</a>
+        <a href="mindfulness.html"class="active">Mindfulness</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero / Intro -->
+  <section class="hero section section-muted">
+    <div class="container hero-grid">
+      <div>
+        <h1 class="headline">Mindfulness</h1>
+        <p class="sub">
+          Mindfulness is essential for mental and physical health. On this page, you can follow a <strong>guided breathing exercise</strong>, listen to <strong>ambient sounds</strong>, and track your sessions. Start with the Pomodoro timer to structure your mindfulness practice, then follow the breathing ball to relax and stay focused.
+        </p>
+      </div>
+      <img src="images/mind (2).jpg" alt="Mindfulness" />
+    </div>
+  </section>
+
+  <!-- Pomodoro Timer Section (Separated from Intro) -->
+  <section class="section pomo-section">
+    <div class="container">
+      <h2 class="section-title">Pomodoro Timer</h2>
+      <p class="center muted">Use this timer to structure your mindfulness breathing exercises.</p>
+      <div class="grid-1 pomo-box">
+        <div class="timer-display" id="pomoDisplay">25:00</div>
+        <div class="timer-buttons">
+          <button class="btn btn-primary" id="pomoStart">Start</button>
+          <button class="btn btn-outline" id="pomoStop">Stop</button>
+          <button class="btn btn-outline" id="pomoReset">Reset</button>
+        </div>
+        <div class="muted center" id="pomoSessions">Sessions Completed: 0</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Breathing Exercise -->
+  <section class="breathing-section">
+    <div class="container">
+      <div class="breathing-box">
+        <h2 class="section-title">Guided Breathing</h2>
+        <p class="lead">
+          Follow the <strong>4–4–4</strong> rhythm: inhale for 4 seconds, hold for 4 seconds, exhale for 4 seconds. Relax your shoulders and jaw, and breathe through your nose.
+        </p>
+        <div class="ball-wrap">
+          <div id="breathingBall" class="breathing-ball exhale" aria-live="polite">Calm</div>
+        </div>
+        <div class="cue">
+          <div id="breathingCue">Ready</div>
+          <div id="breathingCount" class="muted">–</div>
+        </div>
+        <div class="exercise-buttons">
+          <button id="btnStart" class="btn btn-primary" onclick="startBreathing()">Start</button>
+          <button id="btnStop" class="btn btn-outline" onclick="stopBreathing()">Stop</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ambient Sounds -->
+  <section class="section ambient-section">
+    <div class="container reveal">
+      <h2 class="section-title">Ambient Sounds</h2>
+      <p class="muted center">
+        Tap a card to play a relaxing background loop. Tapping the same card stops it.
+      </p>
+
+      <div class="grid-3 ambient-grid">
+        <article class="tile" onclick="playSound('ocean')" role="button" tabindex="0" aria-label="Play Ocean Waves">
+          <img src="images/ocean1.jpg" alt="Ocean Waves" />
+          <h3>Ocean Waves</h3>
+          <p>Gentle rolling waves to ease your mind </p>
+        </article>
+
+        <article class="tile" onclick="playSound('forest')" role="button" tabindex="0" aria-label="Play Forest Ambience">
+          <img src="images/forest.jpg" alt="Forest Ambience" />
+          <h3>Forest Ambience</h3>
+          <p>Birds and rustling leaves for a natural reset </p>
+        </article>
+
+        <article class="tile" onclick="playSound('rain')" role="button" tabindex="0" aria-label="Play Rainfall">
+          <img src="images/rain.jpg" alt="Rainfall" />
+          <h3>Rainfall</h3>
+          <p>Steady rain sounds to calm your thoughts </p>
+        </article>
+      </div>
+
+      <audio id="audio-ocean" loop src="sounds/ocean.mp3"></audio>
+      <audio id="audio-forest" loop src="sounds/forest.wav"></audio>
+      <audio id="audio-rain" loop src="sounds/rain.wav"></audio>
+
+    
+    </div>
+  </section>
+
+<!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p class="muted">© 2025 GreenBite Wellness</p>
+      <div class="links">
+        <a href="index.html">Home</a>
+        <a href="recipes.html">Recipes</a>
+        <a href="calculator.html">Calculator</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/mindfulness.js"></script>
+  <script>
+    function toggleMenu() { document.querySelector(".nav").classList.toggle("open"); }
+  </script>
+</body>
+</html>
