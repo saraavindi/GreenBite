@@ -24,6 +24,7 @@ body {
   font-size: clamp(24px, 4vw, 34px);
   margin-bottom: 12px;
   text-align: center;
+  
 }
 
 .muted {
@@ -37,7 +38,7 @@ body {
 .playfair-title {
   font-family: "Playfair Display", serif;
   color: #ffffff;
-  font-size: 22px;
+  font-size: 30px;
   margin-bottom: 16px;
 }
 
@@ -81,7 +82,6 @@ body {
   background: #162336;
   border-radius: 12px;
   padding: 24px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
   border: 2px solid rgba(255, 255, 255, 0.06);
 }
 
@@ -94,8 +94,8 @@ body {
 
 .sub-box {
   background: #0b1926;
-  padding: 12px;
-  border-radius: 12px;
+  padding: 15px;
+  border-radius: 15px;
   border: 2px solid rgba(93, 115, 124, 0.06);
   display: flex;
   align-items: center;
@@ -105,8 +105,10 @@ body {
 .sub-title {
   font-weight: bold;
   color: #eafff3;
-  font-size: 14px;
+  font-size: 18px;
   text-align: center;
+  margin-right: 30px;
+  margin-left: 20px;
 }
 
 .custom-select {
@@ -117,6 +119,7 @@ body {
   color: #eafff3;
   font-weight: bold;
   cursor: pointer;
+  font-size: 18px;
 }
 
 .custom-select option {
@@ -160,7 +163,7 @@ body {
   flex: 1; /* equal width */
   background: #162336;
   border-radius: 12px;
-  padding: 24px;
+  padding: 8px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
   text-align: center;
   border: 2px solid rgba(255, 255, 255, 0.06);
@@ -174,7 +177,7 @@ body {
 .timer-display {
   font-size: 32px;
   font-weight: bold;
-  margin: 16px 0;
+  margin: 16px 50px;
 }
 
 /* Timer buttons */

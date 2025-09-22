@@ -52,10 +52,9 @@ if (form) {
     let tdee = bmr * activity;
 
     // Macronutrient calculation
-    let carbs = (tdee * 0.50) / 4;   // 50% of calories, 4 kcal per gram
+    let carbs = (tdee * 0.50) / 4;   // 50% of cal, 4 kcal per gram
     let protein = (tdee * 0.20) / 4; // 20% of calories
-    let fat = (tdee * 0.30) / 9;     // 30% of calories, 9 kcal per gram
-
+    let fat = (tdee * 0.30) / 9;     
     // Show the results
     bmrEl.textContent = format(bmr) + " kcal";
     tdeeEl.textContent = format(tdee) + " kcal";
@@ -72,7 +71,7 @@ if (form) {
     results.classList.remove("hidden");
   });
 }
-// --- Hamburger Menu ---
+// Hamburger Menu
 let hamburgerButton = document.getElementById("hamburger");
 let navigationMenu = document.getElementById("navMenu");
 

@@ -26,7 +26,7 @@ function changeSlogan() {
   sloganText.textContent = slogans[sloganIndex];
 }
 
-setInterval(changeSlogan, 4000);
+setInterval(changeSlogan, 3000);
 
 
 // --- Tip of the Day ---

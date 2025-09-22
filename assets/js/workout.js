@@ -1,9 +1,9 @@
-// --- DOM Elements ---
+
 let bodySelect = document.getElementById("body-select");
 let equipSelect = document.getElementById("equip-select");
 let planOutput = document.querySelector(".plan-output");
 
-// --- Map body part display names ---
+// body part display names 
 let bodyNames = {
   full: "Full Body",
   upper: "Upper Body",
@@ -13,10 +13,10 @@ let bodyNames = {
   legs: "Legs"
 };
 
-// --- Equipment options ---
+// Equipment options
 let equipmentOptions = ["Bodyweight", "Dumbbells", "Kettlebell", "Resistance Bands"];
 
-// --- Load exercises from workout.json ---
+// workout.json
 let exercises = {};
 
 fetch("workout.json")
@@ -30,7 +30,7 @@ fetch("workout.json")
     console.log("Error loading JSON:", error);
   });
 
-// --- Populate Equipment Dropdown ---
+// Populate Equipment Dropdown
 function populateEquipment() {
   equipSelect.innerHTML = '<option value="" disabled selected>Select Equipment</option>';
   equipmentOptions.forEach(function(equip) {
