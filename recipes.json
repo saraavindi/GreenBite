@@ -9,16 +9,7 @@
     "steps": ["Toast the bread to desired crispiness.", "Mash avocado with lemon juice, salt and pepper.", "Spread mixture onto toast and sprinkle chili flakes."],
     "nutrition": {"Calories": "260 kcal", "Protein": "6 g", "Carbs": "28 g", "Fat": "14 g"}
   },
-  {
-    "id": 2,
-    "title": "Quinoa & Chickpea Salad",
-    "category": "lunch",
-    "desc": "Protein-packed salad with quinoa, chickpeas, cucumber and herbs.",
-    "img": "https://www.thelastfoodblog.com/wp-content/uploads/2022/05/chickpea-quinoa-salad-with-feta.jpg",
-    "ingredients": ["1 cup cooked quinoa", "1 cup cooked chickpeas", "1/2 cucumber (diced)", "Cherry tomatoes", "Olive oil & lemon dressing"],
-    "steps": ["Combine quinoa, chickpeas and chopped vegetables in a bowl.", "Whisk olive oil and lemon juice; season to taste.", "Toss salad with dressing and serve chilled."],
-    "nutrition": {"Calories": "350 kcal", "Protein": "12 g", "Carbs": "45 g", "Fat": "11 g"}
-  },
+ 
   {
     "id": 3,
     "title": "Overnight Oats",
@@ -39,16 +30,7 @@
     "steps": ["Season salmon and grill 4–6 minutes per side until cooked.", "Roast seasoned vegetables in oven at 200°C for 20 minutes.", "Serve salmon atop roasted vegetables with lemon."],
     "nutrition": {"Calories": "420 kcal", "Protein": "34 g", "Carbs": "14 g", "Fat": "24 g"}
   },
-  {
-    "id": 5,
-    "title": "Lentil Soup",
-    "category": "dinner",
-    "desc": "Hearty lentil soup with carrots, celery and tomatoes.",
-    "img": "https://www.wellplated.com/wp-content/uploads/2020/01/Crockpot-Lentil-Soup.jpg",
-    "ingredients": ["1 cup brown lentils", "1 onion, 2 carrots, 2 celery stalks (chopped)", "2 garlic cloves, canned tomatoes, vegetable stock", "Cumin, paprika, salt & pepper"],
-    "steps": ["Sauté onion, carrots and celery until softened.", "Add garlic, spices and lentils; pour in stock and tomatoes.", "Simmer 25–30 minutes until lentils are tender."],
-    "nutrition": {"Calories": "290 kcal", "Protein": "18 g", "Carbs": "45 g", "Fat": "4 g"}
-  },
+ 
   {
     "id": 6,
     "title": "Quinoa-Stuffed Peppers",
@@ -99,16 +81,7 @@
     "steps": ["Cook the brown rice as per instructions.", "Grill the chicken breast until fully cooked and juicy.", "Roast the vegetables until tender.", "Assemble the bowl with rice, chicken, roasted veggies, and greens.", "Drizzle with herb dressing and serve."],
     "nutrition": {"Calories": "500 kcal", "Protein": "35 g", "Carbs": "55 g", "Fat": "15 g"}
   },
-  {
-    "id": 11,
-    "title": "Chickpea & Spinach Curry",
-    "category": "dinner",
-    "desc": "Quick vegan curry with chickpeas and wilted spinach.",
-    "img": "https://www.thelastfoodblog.com/wp-content/uploads/2024/05/chickpea-curry-f_i.jpg",
-    "ingredients": ["1 can chickpeas (drained)", "2 cups spinach", "1 onion, garlic, ginger", "Tomato puree, curry powder"],
-    "steps": ["Sauté onion, garlic and ginger.", "Add curry powder, tomato and chickpeas; simmer 10 min.", "Stir in spinach until wilted and serve with rice."],
-    "nutrition": {"Calories": "340 kcal", "Protein": "14 g", "Carbs": "44 g", "Fat": "9 g"}
-  },
+ 
   {
     "id": 12,
     "title": "Berry & Spinach Smoothie",
